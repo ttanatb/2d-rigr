@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b721e4072936b474ea81f9e6fdb0bf60, type: 3}
+  m_Name: BoneConfigSO
+  m_EditorClassIdentifier: 
+  m_leftFormat: '{0}_l'
+  m_rightFormat: '{0}_r'
+  m_incrementFormat: '{0}_{1}'
+  m_boneToNameDict:
+    m_keys: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000001000000011000000
+    m_values:
+    - eyebrow
+    - eyelid
+    - iris
+    - eye
+    - nose
+    - face
+    - cheek
+    - ear
+    - head
+    - mouth
+    - lip
+    - lip_top
+    - lip_bot
+    - hair_bg
+    - hair
+    - hair_acc
+    - neck
+  m_spriteToNameDict:
+    m_keys: 010000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f0000000200000003000000
+    m_values:
+    - brow
+    - eye_white
+    - iris
+    - ear
+    - nose
+    - mouth
+    - face
+    - neck
+    - hair_bg
+    - hair_base
+    - hair_acc
+    - lip_top
+    - lip_bot
+    - eyelid
+    - eyelid_border
+  m_boneToLerpMethodDict:
+    m_keys:
+    - m_boneName: 6
+      m_side: 0
+    - m_boneName: 4
+      m_side: 1
+    - m_boneName: 4
+      m_side: 2
+    - m_boneName: 7
+      m_side: 1
+    - m_boneName: 7
+      m_side: 2
+    - m_boneName: 8
+      m_side: 1
+    - m_boneName: 8
+      m_side: 2
+    - m_boneName: 14
+      m_side: 1
+    - m_boneName: 14
+      m_side: 2
+    - m_boneName: 15
+      m_side: 0
+    - m_boneName: 16
+      m_side: 0
+    m_values: 0100000004000000060000000500000003000000020000000200000002000000020000000100000001000000
+  m_lipBoneCount: 7
+  m_eyelidBoneCount: 8
+  m_eyebrowCount: 8

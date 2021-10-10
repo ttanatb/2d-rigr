@@ -1,0 +1,20 @@
+{
+    "name": "2D.Rigr.Core",
+    "references": [
+        "GUID:776d03a35f1b52c4a9aed9f56d7b4229",
+        "GUID:0a492474b86e9304da8fd9e30677d3b7",
+        "GUID:41524c21c95e5fe4dbc5b48bd21995a4",
+        "GUID:c3352a8bbbe14fb4ab52ae7bfff927ea",
+        "GUID:94f23f89eeb66a94fade20e4b88214a9",
+        "GUID:cfb1e47a1d96fb34996b1cf5a136c484"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

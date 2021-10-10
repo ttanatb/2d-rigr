@@ -1,0 +1,8 @@
+{
+  "name": "com.tanatb.2d.rigr",
+  "version": "0.0.1",
+  "displayName": "2D Rigr",
+  "type": "tool",
+  "hideInEditor": false,
+  "description": "2d rigging realness"
+}

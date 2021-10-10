@@ -1,0 +1,18 @@
+{
+    "name": "2D.Rigr.Editor",
+    "references": [
+        "GUID:703b3af65850d584cbddd89bf054f2a1",
+        "GUID:496f13b740120144ca3d85ac8fda3de6",
+        "GUID:b3f49edfedc855a48aa1a9e5d3cba438",
+        "GUID:cfb1e47a1d96fb34996b1cf5a136c484"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

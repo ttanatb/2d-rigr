@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 028c8de0ef54ccd4583e9846a76c4c5b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - m_boneConfigSo: {fileID: 11400000, guid: d44aa23e1d0e9d840972ce6a888bbfc8, type: 2}
+  - m_rootBone: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
