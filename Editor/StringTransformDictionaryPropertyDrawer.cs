@@ -1,7 +1,7 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEditor;
+﻿using UnityEditor;
 
-[CustomPropertyDrawer(typeof(StringTransformDictionary))]
-public class StringTransformDictionaryPropertyDrawer : SerializableDictionaryPropertyDrawer { }
+namespace Rigr.Editor
+{
+    [CustomPropertyDrawer(typeof(StringTransformDictionary))]
+    public class StringTransformDictionaryPropertyDrawer : SerializableDictionaryPropertyDrawer { }
+}

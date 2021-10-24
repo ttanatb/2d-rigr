@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 
-[System.Serializable]
-public class StringTransformDictionary : SerializableDictionary<string, Transform>
+namespace Rigr
 {
-
+    [System.Serializable]
+    public class StringTransformDictionary : SerializableDictionary<string, Transform> { }
 }

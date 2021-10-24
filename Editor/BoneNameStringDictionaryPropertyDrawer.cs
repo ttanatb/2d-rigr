@@ -1,7 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEditor;
+﻿using UnityEditor;
 
-[CustomPropertyDrawer(typeof(BoneNameStringDictionary))]
-public class BoneDictionaryPropertyDrawer : SerializableDictionaryPropertyDrawer { }
+
+
+namespace Rigr.Editor
+{
+    [CustomPropertyDrawer(typeof(BoneNameStringDictionary))]
+    public class BoneDictionaryPropertyDrawer : SerializableDictionaryPropertyDrawer { }
+}

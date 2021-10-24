@@ -1,14 +1,17 @@
 ﻿using UnityEngine;
 
-[System.Serializable]
-public struct BoneSide
+namespace Rigr
 {
-    [SerializeField] private BoneConfigSO.BoneName m_boneName;
-    [SerializeField] private BoneConfigSO.Side m_side;
-
-    public BoneSide(BoneConfigSO.BoneName name, BoneConfigSO.Side side)
+    [System.Serializable]
+    public struct BoneSide
     {
-        m_boneName = name;
-        m_side = side;
+        [SerializeField] private BoneConfigSO.BoneName m_boneName;
+        [SerializeField] private BoneConfigSO.Side m_side;
+
+        public BoneSide(BoneConfigSO.BoneName name, BoneConfigSO.Side side)
+        {
+            m_boneName = name;
+            m_side = side;
+        }
     }
 }

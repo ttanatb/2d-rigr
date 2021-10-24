@@ -1,4 +1,7 @@
 ﻿using UnityEditor;
 
-[CustomPropertyDrawer(typeof(BoneSideLerpMethodDictionary))]
-public class BoneSideLerpMethodDictionaryPropertyDrawer: SerializableDictionaryPropertyDrawer { }
+namespace Rigr.Editor
+{
+    [CustomPropertyDrawer(typeof(BoneSideLerpMethodDictionary))]
+    public class BoneSideLerpMethodDictionaryPropertyDrawer: SerializableDictionaryPropertyDrawer { }
+}

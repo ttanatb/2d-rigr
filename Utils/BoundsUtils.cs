@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using Rigr.Utils;
 using System;
 
 namespace Rigr.Utils
